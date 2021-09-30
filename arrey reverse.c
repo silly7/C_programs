@@ -10,9 +10,6 @@ int main()
         scanf("%d", arr + i);
     }
 
-
-    /* Write the logic to reverse the array. */
-
     for(i = 0; i < num; i++)
         printf("%d ", *(arr + i));
     return 0;
